@@ -77,12 +77,18 @@ Create a `Dropzone` molecule taking the following properties :
 For this component, you will use the `Icon` atom as well as the `P` atom and `Link` atom
 
 
-### UploadModal
+#### UploadModal
 Create a `UploadModal` organism taking the following properties :
 * `onDrop`: Called once a drop is done
 * `onSubmit` : Called once the `Envoyer` button is sent
 
 For this component, you will use the `Modal` molecule, the `Dropzone` molecule as well as the `Input` atom, and the `Button` atom
 
-Please try to follow the template as much as you can.
-If you can set unit tests using snapshot, it's a bonus point. You can see how it is been done on other components
+#### Rules 
+* You should not spend more than 3 hours for the test
+* All code must be done using Typescript.
+* For each component, you have to create a default Storybook story. The documentation is here : https://storybook.js.org/docs/react/get-started/whats-a-story
+* For the design, Please try to follow the template as much as you can.
+* If you still have time, you can create unit tests using snapshot to one of your components
+* If you have any questions, you can contact me via e-mail and I will try to reply as fast as possible
+* To finish the exercice, please create a PR on this project
