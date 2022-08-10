@@ -87,6 +87,7 @@ For this component, you will use the `Modal` molecule, the `Dropzone` molecule a
 #### Rules 
 * You should not spend more than 3 hours for the test
 * All code must be done using Typescript.
+* All translations should be put in the `ui/lang/translation.json` file
 * For each component, you have to create a default Storybook story. The documentation is here : https://storybook.js.org/docs/react/get-started/whats-a-story
 * For the design, Please try to follow the template as much as you can.
 * If you still have time, you can create unit tests using snapshot to one of your components
