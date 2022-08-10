@@ -1,0 +1,90 @@
+import {
+  Meta,
+  ColorPalette,
+  ColorItem,
+  Typeset,
+} from "@storybook/addon-docs/blocks";
+
+import { theme } from "../utils/tailwindConfig";
+
+<Meta title="Theming/Colors" />
+
+# Introduction
+
+This project uses Tailwindcss so a lot of colour props are passed in as CSS classes that
+Tailwind applies styling to i.e. `text-primary-500` to use the primary blue. You can find the
+full original colour palette [here](https://tailwindcss.com/docs/customizing-colors/#default-color-palette).
+This palette is generate by [tailwind.config.js](https://github.com/tortugeniale/styleguide/blob/master/tailwind.config.js)
+
+## Colours
+
+<ColorPalette>
+  {Object.keys(theme.colors).sort().map(color => (
+    <ColorItem
+        key={`color-${color}`}
+        title={color}
+        colors={typeof theme.colors[color] === 'string' ? [theme.colors[color]] : theme.colors[color]}
+    />
+  ))}
+</ColorPalette>
+
+
+## Integrator Help
+
+Here you'll see mapping between [InVision](https://projects.invisionapp.com/d/main/default) and tailwind.config
+
+<ColorPalette>
+    <ColorItem
+        title='Solid'
+        subtitle='#F9FAFB'
+        colors={{ 'gray-50': theme.colors.gray[50] }}
+    />
+    <ColorItem
+        title='Red'
+        subtitle='#DF4958'
+        colors={{ 'danger-500': theme.colors.danger[500] }}
+    />
+    <ColorItem
+        title='Orange'
+        subtitle='#FF8B29'
+        colors={{ 'warning-500': theme.colors.warning[500] }}
+    />
+    <ColorItem
+        title='Green'
+        subtitle='#33DB9F'
+        colors={{ 'success-500': theme.colors.success[500] }}
+    />
+    <ColorItem
+        title='Border + foncé'
+        subtitle='#EFEFF1'
+        colors={{ 'gray-50': theme.colors.gray[50] }}
+    />
+    <ColorItem
+        title='Blue'
+        subtitle='#0072EC'
+        colors={{
+            'primary-500': theme.colors.primary[500]
+        }}
+    />
+    <ColorItem
+        title='#2D3142'
+        subtitle='secondary button text?'
+        colors={{
+            'gray-500': theme.colors.gray[700]
+        }}
+    />
+    <ColorItem
+        title='#73555Nan'
+        subtitle='<p> text ?'
+        colors={{
+            'gray-500': theme.colors.gray[500]
+        }}
+    />
+    <ColorItem
+        title='Dark'
+        subtitle='#072337'
+        colors={{
+            'gray-900': theme.colors.gray[900]
+        }}
+    />
+</ColorPalette>

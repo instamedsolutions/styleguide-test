@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/atoms/loaders/label-skeleton/LabelSkeleton renders correctly 1`] = `
+<div
+  className="animate-pulse bg-gray-100 rounded h-3 mt-1 mb-2 w-1/2 sm:w-1/4"
+/>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/atoms/loaders/skeleton/Skeleton renders correctly {"button": true} 1`] = `
+<div
+  className="animate-pulse bg-gray-100 rounded-lg h-9"
+/>
+`;
+
+exports[`ui/atoms/loaders/skeleton/Skeleton renders correctly {"field": true} 1`] = `
+<div
+  className="animate-pulse bg-gray-100 rounded-lg h-6"
+/>
+`;
+
+exports[`ui/atoms/loaders/skeleton/Skeleton renders correctly {} 1`] = `
+<div
+  className="animate-pulse bg-gray-100 rounded"
+/>
+`;

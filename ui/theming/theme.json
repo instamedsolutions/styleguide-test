@@ -1,0 +1,78 @@
+{
+  "colors": {
+    "current": "currentColor",
+    "black": "black",
+    "white": "white",
+    "primary": {
+      "50": "#f9fafb",
+      "100": "#ebf2fb",
+      "200": "#d7e5f7",
+      "300": "#5e95de",
+      "400": "#357ad5",
+      "500": "#0259ca"
+    },
+    "gray": {
+      "50": "#efeff1",
+      "100": "#d6dbde",
+      "300": "#9ba6ae",
+      "400": "#88969f",
+      "500": "#84929b",
+      "600": "#6a7b87",
+      "700": "#5f717e",
+      "800": "#384f5f",
+      "900": "#072337",
+      "900-08": "#243848"
+    },
+    "danger": {
+      "50": "#fdf1f2",
+      "100": "#fae2e4",
+      "300": "#eb8b94",
+      "500": "#df4958"
+    },
+    "success": {
+      "50": "#f1fbf8",
+      "100": "#e3f7f0",
+      "300": "#8fe0c2",
+      "500": "#50cea0"
+    },
+    "warning": {
+      "50": "#fff7f1",
+      "100": "#feefe2",
+      "300": "#fdc08c",
+      "500": "#fb9c4b"
+    },
+    "yellow": {
+      "50": "#fffbef",
+      "100": "#fff6de",
+      "300": "#ffdc7d",
+      "500": "#ffc833"
+    },
+    "body": "#f0f2f5",
+    "underline": "#dcdde0"
+  },
+  "fontFamily": {
+    "sans": [ "Inter" ]
+  },
+  "extend": {
+    "maxWidth": {
+      "1/4": "25%",
+      "1/2": "50%",
+      "3/4": "75%"
+    },
+    "width": {
+      "menu-large": "240px",
+      "menu-small": "46px"
+    },
+    "fontSize": {
+      "2xs": "0.5rem",
+      "xs": "0.75rem",
+      "sm": "0.875rem",
+      "3xl": "1.88rem"
+    }
+  },
+  "shadowBox": "0 0 8px 0 rgba(227, 228, 230, 0.4)",
+  "fontWeight": {
+    "bold": "bold",
+    "semibold": "600"
+  }
+}

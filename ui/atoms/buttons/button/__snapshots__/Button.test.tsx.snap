@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atoms/button/Button should render correctly When has icon and saving props, no has icon 1`] = `
+<button
+  className="relative text-center font-semibold transition-all text-sm rounded-lg border outline-none transition-colors flex items-center justify-center text-primary-500 bg-white border-gray-100 hover:bg-primary-100 hover:border-primary-100 h-9 cursor-default"
+  disabled={true}
+>
+  <span
+    className="relative mx-auto flex items-center gap-[10px] pl-9 pr-4"
+  >
+    <svg
+      className="animate-spin mr-2 h-5 w-5 absolute top-1/2 left-2.5 -mt-2.5 transition-opacity"
+      fill="currentColor"
+      height="1em"
+      stroke="currentColor"
+      strokeWidth="0"
+      style={
+        Object {
+          "color": undefined,
+        }
+      }
+      version="1.1"
+      viewBox="0 0 16 16"
+      width="1em"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M8 16c-2.137 0-4.146-0.832-5.657-2.343s-2.343-3.52-2.343-5.657c0-1.513 0.425-2.986 1.228-4.261 0.781-1.239 1.885-2.24 3.193-2.895l0.672 1.341c-1.063 0.533-1.961 1.347-2.596 2.354-0.652 1.034-0.997 2.231-0.997 3.461 0 3.584 2.916 6.5 6.5 6.5s6.5-2.916 6.5-6.5c0-1.23-0.345-2.426-0.997-3.461-0.635-1.008-1.533-1.822-2.596-2.354l0.672-1.341c1.308 0.655 2.412 1.656 3.193 2.895 0.803 1.274 1.228 2.748 1.228 4.261 0 2.137-0.832 4.146-2.343 5.657s-3.52 2.343-5.657 2.343z"
+      />
+    </svg>
+    <span>
+       test 
+    </span>
+  </span>
+</button>
+`;
+
+exports[`atoms/button/Button should render correctly in loading mode 1`] = `
+<div
+  className="animate-pulse bg-gray-100 rounded-lg h-9"
+/>
+`;
+
+exports[`atoms/button/Button should render correctly with colors light 1`] = `
+<button
+  className="relative text-center font-semibold transition-all text-sm rounded-lg border outline-none transition-colors flex items-center justify-center text-gray-800 bg-white border-gray-100 hover:text-primary-500 hover:bg-primary-100 hover:border-primary-100 h-9"
+>
+  <span
+    className="relative mx-auto flex items-center gap-[10px] px-4"
+  >
+    <span>
+      test
+    </span>
+  </span>
+</button>
+`;
+
+exports[`atoms/button/Button should render correctly with colors primary 1`] = `
+<button
+  className="relative text-center font-semibold transition-all text-sm rounded-lg border outline-none transition-colors flex items-center justify-center text-white bg-primary-500 border-primary-500 hover:bg-primary-400 hover:border-primary-400 h-9"
+>
+  <span
+    className="relative mx-auto flex items-center gap-[10px] px-4"
+  >
+    <span>
+      test
+    </span>
+  </span>
+</button>
+`;
+
+exports[`atoms/button/Button should render correctly with colors secondary 1`] = `
+<button
+  className="relative text-center font-semibold transition-all text-sm rounded-lg border outline-none transition-colors flex items-center justify-center text-primary-500 bg-white border-gray-100 hover:bg-primary-100 hover:border-primary-100 h-9"
+>
+  <span
+    className="relative mx-auto flex items-center gap-[10px] px-4"
+  >
+    <span>
+      test
+    </span>
+  </span>
+</button>
+`;
+
+exports[`atoms/button/Button should render correctly with icon 1`] = `
+<button
+  className="relative text-center font-semibold transition-all text-sm rounded-lg border outline-none transition-colors flex items-center justify-center text-primary-500 bg-white border-gray-100 hover:bg-primary-100 hover:border-primary-100 h-9"
+>
+  <span
+    className="relative mx-auto flex items-center gap-[10px] px-4"
+  >
+    <span>
+      <svg
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          Object {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 448 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M448 492v20H0v-20c0-6.627 5.373-12 12-12h20V120c0-13.255 10.745-24 24-24h88V24c0-13.255 10.745-24 24-24h112c13.255 0 24 10.745 24 24v72h88c13.255 0 24 10.745 24 24v360h20c6.627 0 12 5.373 12 12zM308 192h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12zm-168 64h40c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12zm104 128h-40c-6.627 0-12 5.373-12 12v84h64v-84c0-6.627-5.373-12-12-12zm64-96h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12v-40c0-6.627-5.373-12-12-12zm-116 12c0-6.627-5.373-12-12-12h-40c-6.627 0-12 5.373-12 12v40c0 6.627 5.373 12 12 12h40c6.627 0 12-5.373 12-12v-40zM182 96h26v26a6 6 0 0 0 6 6h20a6 6 0 0 0 6-6V96h26a6 6 0 0 0 6-6V70a6 6 0 0 0-6-6h-26V38a6 6 0 0 0-6-6h-20a6 6 0 0 0-6 6v26h-26a6 6 0 0 0-6 6v20a6 6 0 0 0 6 6z"
+        />
+      </svg>
+    </span>
+    <span>
+       test 
+    </span>
+  </span>
+</button>
+`;

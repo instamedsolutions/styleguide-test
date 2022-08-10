@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atoms/texts/link/Link renders correctly 1`] = `
+<a
+  className="text-primary-500 hover:underline cursor-pointer"
+  href="http://perdu.com"
+  onClick={[Function]}
+>
+  test
+</a>
+`;
+
+exports[`atoms/texts/link/Link renders correctly with isBlock 1`] = `
+<a
+  className="text-primary-500 cursor-pointer"
+  href="http://perdu.com"
+  onClick={[Function]}
+>
+  test
+</a>
+`;

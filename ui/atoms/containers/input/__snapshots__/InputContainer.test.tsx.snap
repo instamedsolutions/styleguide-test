@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ui/atoms/containers/input/InputContainer renders correctly by default 1`] = `
+<div>
+  <label
+    className="block text-xs font-semibold text-gray-900 mb-2"
+    htmlFor="field-id"
+  >
+    test
+  </label>
+  <div
+    className="relative"
+  >
+    this is a test
+  </div>
+</div>
+`;
+
+exports[`ui/atoms/containers/input/InputContainer renders correctly on loading 1`] = `
+<div>
+  <div
+    className="animate-pulse bg-gray-100 rounded h-3 mt-1 mb-2 w-1/2 sm:w-1/4"
+  />
+  <div
+    className="animate-pulse bg-gray-100 rounded-lg h-10"
+  />
+</div>
+`;

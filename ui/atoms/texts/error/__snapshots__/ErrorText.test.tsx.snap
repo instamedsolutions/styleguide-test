@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`atoms/texts/error/ErrorText renders correctly 1`] = `
+.c0 svg {
+  width: 15px;
+  height: 15px;
+  margin-top: 1px;
+}
+
+<div
+  className="c0 flex text-xs text-danger-500"
+>
+  <svg
+    className="flex-shrink-0 mr-1 text-current"
+    fill="currentColor"
+    height="1em"
+    stroke="currentColor"
+    strokeWidth="0"
+    style={
+      Object {
+        "color": undefined,
+      }
+    }
+    viewBox="0 0 24 24"
+    width="1em"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M0 0h24v24H0z"
+      fill="none"
+    />
+    <path
+      d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"
+    />
+  </svg>
+  this is a test
+</div>
+`;
