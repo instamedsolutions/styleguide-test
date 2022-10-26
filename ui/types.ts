@@ -1,7 +1,7 @@
 import { IconType } from '@ui/atoms/icons/icons';
-import { OptionType } from '@ui/organisms/selectors/types';
+// import { OptionType } from '@ui/organisms/selectors/types';
 
-export type { OptionType };
+// export type { OptionType };
 
 export type { IconType };
 
